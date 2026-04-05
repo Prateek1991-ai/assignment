@@ -1,0 +1,25 @@
+# Environment — never commit real keys
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# Virtual environment
+venv/
+.venv/
+
+# FAISS index (regenerated on startup)
+faiss_index/
+
+# Image cache from PDF extraction
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
